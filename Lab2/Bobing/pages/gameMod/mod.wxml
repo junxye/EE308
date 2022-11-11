@@ -1,0 +1,13 @@
+<view>
+    <image class="bg" src="../pict/ruleBack.jpg" mode="aspectFill"></image>
+    <image class="word_1" src="../pict/singleMod.png" mode="aspectFit"></image>
+    <image class="word_2" src="../pict/multiMod.png" mode="aspectFit"></image>
+</view>
+
+<button class="single">
+    <image class="pict" src="../pict/single.jpg" mode="aspectFill" bindtap="SkipSingle"></image>
+</button>
+
+<button class="multi">
+    <image class="pict" src="../pict/multi.png" mode="aspectFill" bindtap="SkipMulti"></image>
+</button>

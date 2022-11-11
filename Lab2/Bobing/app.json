@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/rulePage/rulePage",
+    "pages/logs/logs",
+    "pages/gameMod/mod",
+    "pages/multi/multi",
+    "pages/setting/setting",
+    "pages/single/single"
+  ],
+  "requiredBackgroundModes": ["audio", "audio/陈军、剑网3 - 枕月人间 (二胡演奏版).mp3"],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

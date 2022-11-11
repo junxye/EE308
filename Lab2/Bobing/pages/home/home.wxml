@@ -1,0 +1,19 @@
+<view>
+    <image class="bg" src="../pict/mainBack.jpeg" mode="aspectFill"></image>
+</view>
+
+<button class="begin">
+    <image class="pict" src="../pict/begin.png" mode="aspectFill" bindtap="SkipBegin"></image>
+</button>
+
+<button class="rule">
+    <image class="pict" src="../pict/rule.png" mode="aspectFill" bindtap="SkipRule"></image>
+</button>
+
+<button class="setting">
+    <image class="pict" src="../pict/setting.png" mode="aspectFill" bindtap="SkipSet"></image>
+</button>
+
+<button class="exit">
+    <image class="pict" src="../pict/exit.png" mode="aspectFill" bindtap="SkipExit"></image>
+</button>

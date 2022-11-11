@@ -1,0 +1,5 @@
+<view>
+    <image class="bg" src="../pict/ruleBack.jpg" mode="aspectFill"></image>
+    <image class="words" src="../pict/gameRule.png" mode="aspectFill"></image>
+    <image class="rules" src="../pict/rules.png" mode="aspectFill"></image>
+</view>

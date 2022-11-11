@@ -1,0 +1,14 @@
+<view>
+    <image class="bg" src="../pict/ruleBack.jpg" mode="aspectFill"></image>
+    <image class="plate" src="../pict/whitePlate_big.png" mode="aspectFill"></image>
+    <view class='words_1'>音量</view>
+    <slider class="slider_1" style="--left:{{tol}}" value = "{{tol}}" bindchange="slider1change" step="5" />
+    <view class='words_2'>音乐</view>
+    <slider class="slider_2" style="--left:{{music}}" value = "{{music}}" bindchange="slider2change" step="5" />
+    <view class='words_3'>音效</view>
+    <slider class="slider_3" style="--left:{{effect}}" value = "{{effect}}" bindchange="slider3change" step="5" />
+</view>
+
+<button class="back">
+    <image class="pict" src="../pict/back.png" mode="aspectFill" bindtap="SkipHome"></image>
+</button>
